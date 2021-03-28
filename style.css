@@ -1,3 +1,16 @@
+@font-face{
+  src: url(./Canela-Regular.ttf);
+  font-family: "Canela";
+}
+
+@font-face{
+  src: url(./Termina-Regular.ttf);
+  font-family: "Termina";
+}
+
+
+
+
 * {
   margin: 0;
   padding: 0;

@@ -22,7 +22,6 @@ new LocomotiveScroll({
   el: document.querySelector("#back"),
   smooth: true,
   multiplier: 1.5,
-  smoothMobile: true,
 });
 locoScroll.on("scroll", ScrollTrigger.update);
 
