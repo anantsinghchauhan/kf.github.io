@@ -371,7 +371,7 @@ nav h1 {
 }
 
 #scnd{
-  margin: 0;
+  /* margin: 0; */
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -475,7 +475,7 @@ nav h1 {
 
   .smtxt{
     text-align: center;
-    top: 25%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%,0);
   }
@@ -496,24 +496,43 @@ nav h1 {
     width: 100%;
   }
 
-  #scnd{
-    margin-top: 125px;
+  .tw{
+    display: flex;
+    flex-direction: column;
   }
 
-  #scnd .smtxt{
-    width: 100%;
-    display: flex;
+  .tw .left .cnt  h1{
+    position: absolute;
+    top: 30%;
+    font-size: 70px;
+    margin-top: -50px;
+  }
+
+  #scnd{
+    /* display: flex;
     flex-direction: column;
     align-items: flex-end;
     padding-right: 35px;
-    display: none;
+    margin-top: 125px; */
   }
+  
+  #scnd .smtxt{
+    padding-right: 120px;
+    position: absolute;
+    top: 32%;
+  }
+  
 
   #scnd h1{
-    /* text-align: center; */
     margin: 0 auto;
     margin-top: -100px;
-    /* background-color: lightcoral; */
   }
 
+  .links{
+    margin-top: 20px;
+  }
+
+  .links a{
+    font-size: 50px;
+  }
 }
