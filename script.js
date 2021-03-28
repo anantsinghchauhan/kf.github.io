@@ -53,13 +53,3 @@ tl.from("nav h1", {
     x: 50,
     opacity: 0
 })
-
-
-
-let t2 = gsap.timeline();
-
-t2.from('.links a', 2 ,{
-    ease: 'Expo.easeInOut',
-    x: 50,
-    opacity: 0
-})

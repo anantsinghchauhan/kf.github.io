@@ -1,8 +1,8 @@
 new hoverEffect({
   parent: document.querySelector(".one .prjone"),
   intensity: 0.1,
-  image1: "images/p1.webp",
-  image2: "images/p2.webp",
+  image1: "images/p2.webp",
+  image2: "images/p7.webp",
   displacementImage: "heightMap.png",
 });
 
@@ -16,17 +16,10 @@ new hoverEffect({
 });
 
 
-
-
-new LocomotiveScroll({
-  el: document.querySelector("#back"),
-  smooth: true,
-  multiplier: 1.5,
+const scroller = new LocomotiveScroll({
+  el: document.querySelector('[data-scroll-container]'),
+  smooth: true
 });
-locoScroll.on("scroll", ScrollTrigger.update);
-
-
-
 
 
 
